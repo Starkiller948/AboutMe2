@@ -49,27 +49,17 @@ body {
     box-shadow: 0 8px 12px red;
 }
 
-a:link{
-    color:#ff0000
-}
-
 a:visited {
   color: #ffffff; 
 }
 
-/*Mouse-over (Hover) link */
 a:hover {
-  color: #ff0000;
+  color: #fe0101;
 }
 
-/*Active (Selected/Clicked) link */
-a:active {
-  color: #ffffff;
-}
 
 .link-box {
     width: 150px;
-    height: 70px;
     background-color: black;
     border: 3px solid #ff0000;
     border-radius: 8px;
@@ -77,6 +67,7 @@ a:active {
     margin: 15px;
     color: #ffffff;
     justify-content: center;
+    
 }
 
 .fav-title{
@@ -94,11 +85,20 @@ a:active {
 h1{
     display: flex;
     justify-content: center;
-    
-   
 }
 
 .Explanation{
     color: #000000;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.profile-image{
+    border: 2px solid #000000;
+    border-radius: 5%; /* Makes the image circular */
+}
+
+.box-title{
+    text-align: center;
+    font-size: 18px;
 }
