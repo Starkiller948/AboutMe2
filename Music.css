@@ -46,3 +46,25 @@ a:hover {
 a:active {
   color: #ffffff;
 }
+
+.top-text {
+    justify-content: center;
+    margin-top: 20px;
+    background-color: color-mix(in srgb, #8c97ffda 0%, #008cff84 100%);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px; 
+    width: 200px;
+    justify-content: center;
+}
+
+.Links-music {
+    justify-content: center;
+    margin-top: 20px;
+    background-color: color-mix(in srgb, #8c97ffda 0%, #008cff84 100%);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px; 
+    width: 150px;
+    justify-content: center;
+}
