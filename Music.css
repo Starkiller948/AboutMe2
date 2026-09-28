@@ -1,18 +1,12 @@
 body {
-    background-image: url('https://i.pinimg.com/originals/d0/d4/96/d0d496ec4349a435692e70b87f760794.gif'); 
-
+    background-image: url('https://i.pinimg.com/originals/d0/d4/96/d0d496ec4349a435692e70b87f760794.gif');
     background-position: center; 
-
     background-repeat: no-repeat; 
-
     background-size: cover; 
-
     background-attachment: fixed; 
-
     background-color: #f4f4f4; 
 
     font-family: 'Times New Roman', Times, serif;
-    
     color: #ffffff;
 }
 
@@ -33,7 +27,6 @@ th, td{
 h1{
     display: flex;
     justify-content: center;
-    
 }
 
 a:link{
@@ -41,15 +34,15 @@ a:link{
 }
 
 a:visited {
-  color: #ffffff; /* Purple */
+  color: #ffffff; 
 }
 
-/* 3. Mouse-over (Hover) link */
+/* Mouse-over (Hover) link */
 a:hover {
-  color: #fe0101; /* Orange-red */
+  color: #fe0101;
 }
 
-/* 4. Active (Selected/Clicked) link */
+/* Active (Selected/Clicked) link */
 a:active {
-  color: #ffffff; /* Green */
+  color: #ffffff;
 }

@@ -35,7 +35,7 @@ a:active {
 }
 
 .info{
-    background-color: #040404;
+    background-color: color-mix(in srgb, #ff8cbeda 0%, #ff001584 100%);
     border: 1px solid #000000;
     border-radius: 8px; /* Smooth rounded corners */
     padding: 20px; /* Space inside the box */
@@ -44,10 +44,28 @@ a:active {
 }
 
 .info2{
-    background-color: #040404;
+    background-color: color-mix(in srgb, #ff8cbeda 0%, #ff001584 100%);
     border: 1px solid #000000;
     border-radius: 8px; /* Smooth rounded corners */
     padding: 20px; /* Space inside the box */
     justify-content: center;
     width: 800px;
+}
+
+.info3{
+    background-color: color-mix(in srgb, #ff8cbeda 0%, #ff001584 100%);
+    border: 1px solid #000000;
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 20px; /* Space inside the box */
+    justify-content: center;
+    width: 200px;
+}
+
+.Links-home {
+    margin-top: 20px;
+    background-color: color-mix(in srgb, #ff8cbeda 0%, #ff001584 100%);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px; 
+    width: 125px;
 }
