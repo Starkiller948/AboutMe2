@@ -17,12 +17,13 @@ body {
 }
 
 h1{
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 20px;
 }
 a:link{
-    color:#ffffff
+  color:#ffffff
 }
 
 a:visited {

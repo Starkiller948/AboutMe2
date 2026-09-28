@@ -19,6 +19,15 @@ table{
     width: auto;
 }
 
+th{
+    font-size: 20px;
+}
+
+td{
+    font-family: 'courier new', monospace; 
+}
+
+
 th, td{
     border: 5px solid;
     padding: 8px;
@@ -27,6 +36,7 @@ th, td{
 h1{
     display: flex;
     justify-content: center;
+    font-size: 40px;
 }
 
 a:link{

@@ -76,6 +76,7 @@ a:hover {
 h1{
     display: flex;
     justify-content: center;
+    font-size: 40px;
 }
 
 .Explanation{
