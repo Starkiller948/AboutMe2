@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/1b/73/a1/1b73a112994109a17aa10d4bd5cdcb6c.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-color: #040404; 
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #f4f4f4;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+a:link{
+    color:#fffefe
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+/* Mouse-over (Hover) link */
+a:hover {
+  color: #fe0101; 
+}
+
+/* Active (Selected/Clicked) link */
+a:active {
+  color: #ffffff;
+}
+
+.info{
+    background-color: #040404;
+    border: 1px solid #000000;
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 20px; /* Space inside the box */
+    justify-content: center;
+    width: 1000px;
+}
+
+.info2{
+    background-color: #040404;
+    border: 1px solid #000000;
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 20px; /* Space inside the box */
+    justify-content: center;
+    width: 800px;
+}
