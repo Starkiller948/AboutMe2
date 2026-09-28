@@ -24,12 +24,10 @@ a:visited {
   color: #ffffff;
 }
 
-/* Mouse-over (Hover) link */
 a:hover {
   color: #0105fe; 
 }
 
-/* Active (Selected/Clicked) link */
 a:active {
   color: #ffffff;
 }
@@ -37,8 +35,8 @@ a:active {
 .info{
     background-color: color-mix(in srgb, #ff8cbeda 0%, #ff001584 100%);
     border: 1px solid #000000;
-    border-radius: 8px; /* Smooth rounded corners */
-    padding: 20px; /* Space inside the box */
+    border-radius: 8px;
+    padding: 20px;
     justify-content: center;
     width: 1000px;
 }
@@ -46,8 +44,8 @@ a:active {
 .info2{
     background-color: color-mix(in srgb, #ff8cbeda 0%, #ff001584 100%);
     border: 1px solid #000000;
-    border-radius: 8px; /* Smooth rounded corners */
-    padding: 20px; /* Space inside the box */
+    border-radius: 8px;
+    padding: 20px;
     justify-content: center;
     width: 800px;
 }
@@ -55,8 +53,8 @@ a:active {
 .info3{
     background-color: color-mix(in srgb, #ff8cbeda 0%, #ff001584 100%);
     border: 1px solid #000000;
-    border-radius: 8px; /* Smooth rounded corners */
-    padding: 20px; /* Space inside the box */
+    border-radius: 8px;
+    padding: 20px;
     justify-content: center;
     width: 200px;
 }
@@ -69,6 +67,3 @@ a:active {
     padding: 20px; 
     width: 125px;
 }
-
-
-/*https://i.pinimg.com/736x/1b/73/a1/1b73a112994109a17aa10d4bd5cdcb6c.jpg/*

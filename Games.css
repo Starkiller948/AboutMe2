@@ -11,39 +11,31 @@ body {
 }
 
 .box-list {
-    /* 1. Remove default list styling and padding */
     list-style-type: none;
     padding: 0;
     margin: 0;
 
-    /* 2. Turn the list into a responsive grid */
     display: grid;
     
-    /* Creates as many 250px columns as will fit, filling remaining space */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     
-    /* Adds spacing between the boxes */
     gap: 20px; 
 }
 
 .box-list li {
-    /* 3. Style each individual list item into a box */
     background-color: #ffffff;
     border: 1px solid #000000;
-    border-radius: 8px; /* Smooth rounded corners */
-    padding: 20px; /* Space inside the box */
+    border-radius: 8px;
+    padding: 20px; 
     justify-content: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     
-    /*shadow effect */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
-    
-    /* Smooth hover animation */
+
     transition: transform 0.2s ease, box-shadow 0.2s ease; 
 }
 
-/*hover effect to make the boxes interactive */
 .box-list li:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 12px red;
@@ -56,7 +48,6 @@ a:visited {
 a:hover {
   color: #fe0101;
 }
-
 
 .link-box {
     width: 150px;
@@ -95,7 +86,7 @@ h1{
 
 .profile-image{
     border: 2px solid #000000;
-    border-radius: 5%; /* Makes the image circular */
+    border-radius: 5%;
 }
 
 .box-title{

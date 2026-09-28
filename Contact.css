@@ -26,15 +26,13 @@ a:link{
 }
 
 a:visited {
-  color: #ffffff; /* Purple */
+  color: #ffffff;
 }
 
-/* 3. Mouse-over (Hover) link */
 a:hover {
-  color: #fe0101; /* Orange-red */
+  color: #fe0101;
 }
 
-/* 4. Active (Selected/Clicked) link */
 a:active {
-  color: #ffffff; /* Green */
+  color: #ffffff;
 }

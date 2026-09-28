@@ -37,12 +37,10 @@ a:visited {
   color: #ffffff; 
 }
 
-/* Mouse-over (Hover) link */
 a:hover {
   color: #fe0101;
 }
 
-/* Active (Selected/Clicked) link */
 a:active {
   color: #ffffff;
 }
