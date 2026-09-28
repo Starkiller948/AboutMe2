@@ -1,3 +1,4 @@
+/*Background Image*/ 
 body {
     background-image: url('https://i.pinimg.com/736x/b6/cf/bc/b6cfbca0aae4e59d6b55c46abed3454a.jpg'); 
 
@@ -16,12 +17,15 @@ body {
     color: #f4f4f4;
 }
 
+/*Title*/
 h1{
   display: flex;
   justify-content: center;
   font-size: 40px;
   padding: 20px;
 }
+
+/*Link format*/
 a:link{
   color:#ffffff
 }

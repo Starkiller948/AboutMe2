@@ -1,3 +1,4 @@
+/*Background Image*/ 
 body {
     background-image: url('https://i.pinimg.com/originals/d0/d4/96/d0d496ec4349a435692e70b87f760794.gif');
     background-position: center; 
@@ -10,6 +11,7 @@ body {
     color: #ffffff;
 }
 
+/*Table format*/
 table{
     display: flex;
     justify-content: center;
@@ -18,27 +20,28 @@ table{
     border-collapse: collapse;
     width: auto;
 }
-
+/*Table Headers*/
 th{
     font-size: 20px;
 }
-
+/*Table Data*/
 td{
     font-family: 'courier new', monospace; 
 }
-
 
 th, td{
     border: 5px solid;
     padding: 8px;
 }
 
+/*Title*/
 h1{
     display: flex;
     justify-content: center;
     font-size: 40px;
 }
 
+/*Link format*/
 a:link{
     color:#ffffff
 }
@@ -55,6 +58,7 @@ a:active {
   color: #ffffff;
 }
 
+/*Box for Info*/
 .top-text {
     justify-content: center;
     margin-top: 20px;
@@ -66,6 +70,7 @@ a:active {
     justify-content: center;
 }
 
+/*Box for Links*/
 .Links-music {
     justify-content: center;
     margin-top: 20px;
