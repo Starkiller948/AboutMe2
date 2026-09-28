@@ -1,0 +1,104 @@
+body {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/AC3eZRkCwtYSgiLgb4WTfT.png'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-color: #f4f4f4; 
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000;
+}
+
+.box-list {
+    /* 1. Remove default list styling and padding */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    /* 2. Turn the list into a responsive grid */
+    display: grid;
+    
+    /* Creates as many 250px columns as will fit, filling remaining space */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    
+    /* Adds spacing between the boxes */
+    gap: 20px; 
+}
+
+.box-list li {
+    /* 3. Style each individual list item into a box */
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 20px; /* Space inside the box */
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+    /*shadow effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    
+    /* Smooth hover animation */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+/*hover effect to make the boxes interactive */
+.box-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px red;
+}
+
+a:link{
+    color:#ff0000
+}
+
+a:visited {
+  color: #ffffff; 
+}
+
+/*Mouse-over (Hover) link */
+a:hover {
+  color: #ff0000;
+}
+
+/*Active (Selected/Clicked) link */
+a:active {
+  color: #ffffff;
+}
+
+.link-box {
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    border: 3px solid #ff0000;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.fav-title{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    border: 3px solid #ff0000;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 15px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.Explanation{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
